@@ -40,7 +40,7 @@ export const Large = {
 export const Small = {
   args: {
     size: "small",
-    label: "Button",
+    label: "Button now",
   },
 };
 
