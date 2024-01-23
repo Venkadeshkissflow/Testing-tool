@@ -20,6 +20,11 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "test-storybook": "test-storybook",
+    "test-storycontrols": "test-storybook --eject",
+    "test-storywatch": "test-storybook --watch",
+    "test-play": "test-storybook --url https://storybook-testing.vercel.app/?path=/docs/configure-your-project--docs",
+    "test-kf": "test-storybook --url https://design.kissflow.dev/local/133/web",
+    "test-coverage": "test-storybook --coverage",
     "chromatic": "npx chromatic --project-token=chpt_e441e58ec503c16"
   },
   "eslintConfig": {
@@ -46,6 +51,7 @@
     "@storybook/addon-interactions": "^7.6.10",
     "@storybook/addon-links": "^7.6.10",
     "@storybook/addon-onboarding": "^1.0.10",
+    "@storybook/addon-storyshots": "^7.6.10",
     "@storybook/blocks": "^7.6.10",
     "@storybook/preset-create-react-app": "^7.6.10",
     "@storybook/react": "^7.6.10",
